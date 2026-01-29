@@ -1,0 +1,6 @@
+res://entities/cloth/kink/kink.tscn
+res://entities/cloth/notch/notch.gd
+res://entities/cloth/chunk/chunk.tscn
+res://entities/cloth/chunk/chunk.gd
+res://entities/cloth/cloth.gd
+res://entities/cloth/cloth.tscn

@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://d1jupiku2qal7"]
+
+[ext_resource type="Script" uid="uid://bjg5msmw2omjm" path="res://entities/cloth/chunk/chunk.gd" id="1_4rfmp"]
+[ext_resource type="PackedScene" uid="uid://ycwktp1peli7" path="res://entities/cloth/kink/kink.tscn" id="2_vwuo3"]
+
+[node name="Chunk" type="Node2D" unique_id=2004256628]
+script = ExtResource("1_4rfmp")
+kink_scene = ExtResource("2_vwuo3")
+
+[node name="Kinks" type="Node2D" parent="." unique_id=1993037858]
+unique_name_in_owner = true

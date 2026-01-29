@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://drkbgoocc324t"]
+
+[ext_resource type="Script" uid="uid://vxy4ladhfjmq" path="res://entities/cloth/notch/notch.gd" id="1_lk6ku"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5d68x"]
+radius = 78.0
+
+[node name="Notch" type="Node2D" unique_id=1036286054]
+script = ExtResource("1_lk6ku")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=2020223151]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=859645809]
+shape = SubResource("CircleShape2D_5d68x")
+
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]
