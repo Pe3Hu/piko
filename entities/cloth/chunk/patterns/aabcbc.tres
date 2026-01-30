@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="ChunkPatternResource" format=3 uid="uid://caaio5c00c51c"]
+
+[ext_resource type="Script" uid="uid://d2thg71fuwsdc" path="res://entities/cloth/chunk/patterns/chunk_pattern.gd" id="1_cs8ol"]
+
+[resource]
+script = ExtResource("1_cs8ol")
+orders = Array[int]([0, 0, 1, 2, 1, 2])
+metadata/_custom_type_script = "uid://d2thg71fuwsdc"

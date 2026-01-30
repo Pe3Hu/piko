@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://drkbgoocc324t" path="res://entities/cloth/notch/notch.tscn" id="2_fegai"]
 [ext_resource type="Texture2D" uid="uid://dowx6k3ycpxmm" path="res://entities/cloth/chunk/tilesets/m_merged.png" id="3_fegai"]
 [ext_resource type="PackedScene" uid="uid://d1jupiku2qal7" path="res://entities/cloth/chunk/chunk.tscn" id="3_ofhcr"]
+[ext_resource type="Texture2D" uid="uid://b7q1bswv30o04" path="res://entities/cloth/chunk/tilesets/tile_vertical.png" id="5_c1kj3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ofhcr"]
 texture = ExtResource("3_fegai")
@@ -29,3 +30,13 @@ tile_set = SubResource("TileSet_fegai")
 
 [node name="Chunks" type="Node2D" parent="Notchs" unique_id=489815526]
 unique_name_in_owner = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1899684849]
+self_modulate = Color(0.8, 0.8, 0.8, 1)
+position = Vector2(-800, 0)
+texture = ExtResource("5_c1kj3")
+
+[node name="ShowcaseChunk" parent="Sprite2D" unique_id=2004256628 node_paths=PackedStringArray("cloch") instance=ExtResource("3_ofhcr")]
+unique_name_in_owner = true
+is_selected = true
+cloch = NodePath("../..")

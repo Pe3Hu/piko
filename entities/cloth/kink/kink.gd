@@ -2,14 +2,16 @@ class_name Kink
 extends Line2D
 
 
+var chunk: Chunk
+
 var start: Vector2
 var medium: Vector2
 var end: Vector2
 
-var color: Color:
+var aspect: State.Aspect:
 	set(value_):
-		color = value_
-		default_color = color
+		aspect = value_
+		default_color = Catalog.aspect_to_color[aspect]
 
 
 func recalc_points() -> void:
