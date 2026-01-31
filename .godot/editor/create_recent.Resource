@@ -1,1 +1,1 @@
-res://entities/cloth/chunk/patterns/chunk_pattern.gd
+res://entities/cloth/notch/consecution/consecution_resource.gd

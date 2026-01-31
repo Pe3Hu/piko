@@ -11,6 +11,7 @@ func init_order_to_indexs() -> void:
 	for _i in orders.size():
 		var order = orders[_i]
 		if !order_to_indexs.has(order):
-			order_to_indexs[order] = []
+			var indexs: Array[int]
+			order_to_indexs[order] = indexs
 		
 		order_to_indexs[order].append(_i)

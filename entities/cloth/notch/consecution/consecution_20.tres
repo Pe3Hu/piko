@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="ConsecutionResource" format=3 uid="uid://c5o0tgf0oc46f"]
+
+[ext_resource type="Script" uid="uid://bxbet2apjrgu6" path="res://entities/cloth/notch/consecution/consecution_resource.gd" id="1_w5smx"]
+
+[resource]
+script = ExtResource("1_w5smx")
+orders = Array[int]([0, 0, 1])
+metadata/_custom_type_script = "uid://bxbet2apjrgu6"

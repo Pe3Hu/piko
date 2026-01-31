@@ -4,7 +4,6 @@
 [ext_resource type="Script" uid="uid://ct7mo6g7080er" path="res://entities/cloth/chunk/seam/seam.gd" id="1_alxba"]
 
 [node name="Seam" type="Sprite2D" unique_id=149346104]
-visible = false
 scale = Vector2(0.6, 0.6)
 texture = ExtResource("1_7n1kx")
 script = ExtResource("1_alxba")
